@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abdullah | About Me</title>
+<style>
+:root{--navy:#0F172A;--blue:#2563EB;--white:#FFFFFF;--gray:#F1F5F9;--ink:#0F172A;--muted:#475569;--card:#FFFFFF;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;line-height:1.65;color:var(--ink);background:var(--white)}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.15;margin:0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--navy);display:flex;justify-content:space-between;align-items:center;padding:14px 6vw}
+nav b{color:var(--white);font-family:Georgia,serif;font-size:1.2rem}
+nav div{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#CBD5E1;text-decoration:none;font-size:.95rem}
+nav a:hover,nav a:focus-visible{color:var(--white);outline:none;text-decoration:underline}
+.hero{background:var(--navy);color:var(--white);padding:12vh 6vw 14vh}
+.hero h1{font-size:clamp(2.6rem,9vw,6rem);max-width:12ch}
+.hero p{max-width:52ch;color:#CBD5E1;font-size:1.15rem;margin:22px 0 32px}
+.btn{display:inline-block;background:var(--blue);color:var(--white);padding:13px 26px;border-radius:8px;text-decoration:none;font-weight:700;margin-right:10px}
+.btn.alt{background:transparent;border:2px solid var(--blue)}
+.btn:hover,.btn:focus-visible{background:#1D4ED8;outline:2px solid var(--white)}
+section{padding:80px 6vw}
+.gray{background:var(--gray)}
+.navy{background:var(--navy);color:var(--white)}
+h2{font-size:clamp(1.8rem,5vw,2.6rem);margin-bottom:8px}
+h2::after{content:"";display:block;width:56px;height:4px;background:var(--blue);margin-top:12px;border-radius:2px}
+.lead{max-width:68ch;margin-top:24px;color:var(--muted)}
+.navy .lead{color:#CBD5E1}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:32px}
+.card{background:var(--card);border-left:5px solid var(--blue);padding:24px;border-radius:6px}
+.navy .card{background:#1E293B;color:var(--white)}
+.card h3{font-size:1.3rem;margin-bottom:8px}
+.card p{margin:0;color:var(--muted)}
+.navy .card p{color:#CBD5E1}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.tags span{background:var(--blue);color:var(--white);padding:8px 16px;border-radius:999px;font-weight:700;font-size:.95rem}
+.goal{font-family:Georgia,serif;font-size:clamp(1.4rem,3.5vw,2.1rem);max-width:30ch;margin-top:24px}
+footer{background:var(--navy);color:#94A3B8;text-align:center;padding:28px 6vw}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--white:#FFFFFF}}
+</style>
+</head>
+<body>
+<nav>
+  <b>Abdullah</b>
+  <div><a href="#about">About</a><a href="#school">School</a><a href="#hobbies">Hobbies</a><a href="#character">Character</a><a href="#future">Future</a></div>
+</nav>
+
+<header class="hero">
+  <h1>Hi, I'm Abdullah.</h1>
+  <p>A Grade 8 student at LACAS School who loves Maths, cricket and learning new things.</p>
+  <a class="btn" href="#about">Read my story</a><a class="btn alt" href="#future">My goals</a>
+</header>
+
+<section id="about" class="gray">
+  <h2>About Me</h2>
+  <p class="lead">I am a friendly, helpful and curious person. I believe every person has different qualities and interests that make them special, and I am always trying to improve myself and become a better person.</p>
+  <div class="tags"><span>Friendly</span><span>Helpful</span><span>Curious</span><span>Hardworking</span></div>
+</section>
+
+<section id="school">
+  <h2>School Life</h2>
+  <div class="grid">
+    <div class="card"><h3>Learning at LACAS</h3><p>I enjoy school because I learn new things, meet my friends and take part in different activities.</p></div>
+    <div class="card"><h3>Favourite subject: Maths</h3><p>I like solving problems and trying different ways to reach the correct answer. I aim to understand each topic instead of just memorising it.</p></div>
+    <div class="card"><h3>Respect</h3><p>I respect my teachers and classmates, and I help others whenever I can. Even a small kindness can make someone's day better.</p></div>
+  </div>
+</section>
+
+<section id="hobbies" class="navy">
+  <h2>Free Time</h2>
+  <div class="grid">
+    <div class="card"><h3>Cricket</h3><p>Playing with my friends is fun, and it teaches teamwork, patience and sportsmanship.</p></div>
+    <div class="card"><h3>Roblox</h3><p>Gaming helps me relax. I manage my time so my studies never suffer.</p></div>
+  </div>
+</section>
+
+<section id="character" class="gray">
+  <h2>What I Value</h2>
+  <div class="grid">
+    <div class="card"><h3>Friendship</h3><p>I like making new friends and talking to people.</p></div>
+    <div class="card"><h3>Listening</h3><p>I listen to others and treat everyone with respect.</p></div>
+    <div class="card"><h3>Support</h3><p>Being helpful and supportive is an important part of a good personality.</p></div>
+  </div>
+</section>
+
+<section id="future">
+  <h2>My Future</h2>
+  <p class="lead">I am preparing for my O/A Levels. I know my future studies will need more effort, responsibility and hard work, so I am building good study habits, managing my time and growing more confident step by step.</p>
+  <p class="goal">My goal is to become successful and make my family proud.</p>
+  <p class="lead">Success does not come easily. I am ready to work hard, learn from my mistakes and keep improving with patience and determination.</p>
+  <p style="margin-top:28px"><a class="btn" href="#about">Back to top</a></p>
+</section>
+
+<footer>© Abdullah, Grade 8, LACAS School</footer>
+</body>
+</html>
